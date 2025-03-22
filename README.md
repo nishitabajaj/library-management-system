@@ -1,18 +1,26 @@
 📚 Library Management System
-A Django-based RESTful API for managing library books and users.
 
-🚀 Features
-📖 Book Management: Add, update, delete, and list books.
+Overview
 
-👩‍🎓 Student Access: Students can view available books.
+The Library Management System is a web application built using Django and Django REST Framework (DRF). It allows an admin to manage books through CRUD operations and enables students to view available books. The system uses MySQL as the database and implements token-based authentication.
 
-🔑 Authentication: Token-based authentication for admin and students.
+Features
 
-🔐 Role-Based Access: Admins can perform CRUD operations, students can only read data.
+Admin Authentication: Signup and login using email and password.
 
-📡 REST API: Built with Django REST Framework (DRF).
+Book Management (Admin Only):
 
-🛠 Database: MySQL as the backend database.
+Add a new book.
+
+Retrieve all books.
+
+Update book details.
+
+Delete a book.
+
+Student View: Students can view all available books.
+
+Token-Based Authentication: Secure access using JWT tokens.
 
 🏗 Installation & Setup
 
